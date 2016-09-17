@@ -46,6 +46,7 @@ $(document).on('click', '.schedule_expand', function(e){
 $(function () {
   var today = new Date();
   var austDay = new Date(2016,9-1,19,8,00,00,0);
+  console.log(austDay);
   if(today>austDay){
     $("#countdown").hide();
   }else{

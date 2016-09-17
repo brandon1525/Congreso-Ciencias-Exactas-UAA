@@ -21,6 +21,11 @@ body {
     position: relative;
     -webkit-font-smoothing: antialiased;
 }
+@media (max-width: 360px) {
+  body{
+    position: absolute;
+  }
+}
 
 a {
     color: #000;
@@ -334,7 +339,7 @@ ul li {
     min-height: 100vh;
     position: relative;
     text-align: center;
-    background: url(../img/header.jpg) no-repeat center center/cover;
+    background: url(../img/headeruaa.jpg) no-repeat center center/cover;
 }
 .site-header::before {
     content: "";

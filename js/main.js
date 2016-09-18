@@ -31,6 +31,14 @@ $(document).ready(function () {
     if($('.schedule_tabs').length) {
       $('.schedule_tabs a:first').click();
     }
+    $('.btn-carreras').click(function(){
+      if($(this).hasClass('collapsed')){
+        $(this).addClass('active');
+      }else{
+        $(this).removeClass('active');
+      }
+      $(this).blur();
+    });
 });
 
 $(document).on('click', '.schedule_expand', function(e){

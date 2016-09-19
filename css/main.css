@@ -71,7 +71,11 @@ ul li {
     color: #4e4e4e;
     font-family: "Ionicons";
 }
-
+.block_ta_con{
+  border: 1px solid;
+  padding: 10px;
+  margin: 10px 0px 10px;
+}
 .social-block {
     list-style-type: none;
     padding: 0;
